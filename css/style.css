@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* ---------------------
 MODIF DYLAN - SECTION SERVICE
 --------------------- */
@@ -237,7 +237,7 @@ MODIF DYLAN - SECTION TARIF
     font-size: 15px;
   }
 }
-=======
+
 /* FOOTER */
 
 *{
@@ -347,7 +347,7 @@ MODIF DYLAN - SECTION TARIF
     display: flex;
     justify-content: space-between;
     background-color: #ff592b;
-    
+
 
 }
 .administratif-card p{
@@ -400,4 +400,75 @@ MODIF DYLAN - SECTION TARIF
     }
 
 }
->>>>>>> geoffrey
+=
+html , body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+
+}
+.jumbotron {
+  background-image: url("../img/logo.jpg");
+  background-position: center ;
+  display: block;
+  height: 100%;
+  background-color: white;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin-top: 0;
+}
+
+#menu{
+  position: fixed;
+  width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c6c6c6;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top : -110px;
+    visibility: hidden;
+}
+
+img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ACC , .ASB , .SER , .TAR , .CONT {
+  margin-bottom: 10px;
+}
+
+.ACC{
+  border: 2px solid #ff13c0;
+}
+.ASB{
+  border: 2px solid #fa6a3e;
+}
+.SER{
+  border: 2px solid #ffa61a;
+}
+.TAR{
+  border: 2px solid #41ff8e;
+}
+.CONT{
+  border: 2px solid ##B4D52D;
+}
