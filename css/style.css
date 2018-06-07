@@ -198,6 +198,7 @@ MODIF DYLAN - SECTION TARIF
 .tarifs__list{
   padding-top: 20px;
   padding-left: 30px;
+  list-style: none;
 }
 .tarifs__item{
   color: grey;
@@ -260,6 +261,7 @@ MODIF DYLAN - SECTION TARIF
     background-color: #ff592b;
     text-align: center;
     margin-top: 30px;
+    padding-bottom: 50px;
 }
 .container-footer-top a {
     color: beige;
@@ -326,7 +328,11 @@ MODIF DYLAN - SECTION TARIF
 /* CONTACT */
 .contact p, a, h3{
     padding-left: 20px;
-    color: grey;
+    color: #ff592b;
+
+}
+h3{
+  text-align: left;
 }
 .contact h2 {
     color: #ff592b;
@@ -339,14 +345,21 @@ MODIF DYLAN - SECTION TARIF
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #ffab1f;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+
 }
 .administratif-card {
-    width: 700px;
+  width: 100%;
+max-width: 700px;
     /* border: 1px solid red; */
+
     display: flex;
     justify-content: space-between;
     background-color: #ff592b;
+    margin: auto;
+
 
 
 }
@@ -380,7 +393,11 @@ MODIF DYLAN - SECTION TARIF
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background-color: #ffab1f;
+
 }
 
 /* MEDIA Q */
@@ -410,20 +427,26 @@ html , body{
 }
 .jumbotron {
   background-image: url("../img/logo.jpg");
-  background-position: center ;
+  background-position: center 120px;
   display: block;
-  height: 100%;
+  height: 100vh;
+  background-size: 25%;
   background-color: white;
   background-repeat: no-repeat;
-  padding: 0;
+
   margin-top: 0;
+  display: flex;
+  justify-content: center;
+
 }
 
 #menu{
   position: fixed;
+  z-index: 1000;
+    top: 0;
   width: 100%;
 }
-ul {
+.menu-top {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -431,11 +454,11 @@ ul {
     background-color: #c6c6c6;
 }
 
-li {
+.menu-top__item {
     float: left;
 }
 
-li a {
+.menu-top__item  a {
     display: block;
     color: white;
     text-align: center;
@@ -457,7 +480,7 @@ img{
   margin-bottom: 10px;
 }
 
-.ACC{
+/* .ACC{
   border: 2px solid #ff13c0;
 }
 .ASB{
@@ -471,4 +494,42 @@ img{
 }
 .CONT{
   border: 2px solid ##B4D52D;
+} */
+
+
+/* CONFLICT-CSS */
+
+
+.home__title{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #ff592b;
+    text-transform: uppercase;
+    align-self: flex-end;
+
+}
+
+.contact__inner{
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.admin{
+  margin: 30px auto;
+}
+
+.asbl--inner,.home--inner{
+  width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.col{
+  text-align: justify;
+
 }
