@@ -1,0 +1,152 @@
+/* FOOTER */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* MEDIA Q */
+
+@media screen and (max-width: 640px) {
+    .presse{
+        border: 1px solid red;
+        display: none;
+        width: 50%;
+    }
+    .liens{
+        width: 50%;
+    }
+    .acces{
+        width: 50%;
+    }
+    .temoignages{
+        width: 50%;
+    }
+
+}
+
+
+
+/*TOP*/
+.container-footer-top{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ff592b;
+    text-align: center;
+}
+.container-footer-top a {
+    color: beige;
+    text-decoration: none;
+}
+.container-footer-top a:hover {
+    color: #ffab1f;
+    text-decoration: none;
+}
+.container-footer-top p {
+    color: beige;
+    padding-bottom: 10px;
+}
+.container-footer-top h4 {
+    color: beige;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.presse {
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.presse-gauche{
+    width: 50%;
+}
+.presse-droite{
+    width: 50%;
+
+
+}
+
+.liens {
+    width: 25%;
+    height: 300px;
+    /* border: 1px solid red; */
+}
+.acces{
+    width: 25%;
+    height: 300px;
+    /* border: 1px solid red; */
+}
+.temoignages{
+    width: 25%;
+    height: 300px;
+    /* border: 1px solid red; */
+}
+/*BOTTOM*/
+.container-footer-bottom {
+    background-color: #343434;
+    width: 100%;
+    color: beige;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.container-copy{
+
+}
+
+/* CONTACT */
+.contact p, h2, a, h3{
+    color: grey;
+}
+.strong {
+    font-weight: 700;
+}
+.admin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ffab1f;
+    width: 700px;
+}
+.administratif-card {
+    width: 700px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff592b;
+    
+
+}
+.administratif-card p{
+    line-height: 2;
+    color: beige;
+}
+.nom {
+    padding-left: 20px;
+    /* border: 1px solid red; */
+}
+.tel{
+    padding-left: 20px;
+    /* border: 1px solid red; */
+}
+.mail {
+
+    /* border: 1px solid red; */
+}
+.ico-mail {
+    padding-right: 20px;
+    /* border: 1px solid red; */
+}
+
+
+.titre-card-admin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 700px;
+}
