@@ -55,10 +55,16 @@ MODIF DYLAN - SECTION SERVICE
 .card__img{
   width: 100%;
   height:180px;
-  background-image: url(http://via.placeholder.com/365x180/ff592b/ffffff);
+  background-image: url(../img/service_personne_agee.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+#first-img{
+  background-image: url(../img/index.jpeg);
+}
+#second-img{
+  background-image: url(../img/hands.jpg);
 }
 .card__content{
   padding: 25px;
