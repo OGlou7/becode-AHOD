@@ -72,7 +72,9 @@ MODIF DYLAN - SECTION SERVICE
 }
 .card__text{
   color: grey;
-  line-height: 1.45
+  line-height: 1.45;
+  text-align: justify;
+
 }
 
 .card__list{
@@ -99,6 +101,16 @@ MODIF DYLAN - SECTION SERVICE
     max-width: 500px;
   }
 
+  .card__content{
+    min-height: 310px;
+  }
+
+  .service__title{
+    font-size: 30px;
+  }
+
+
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -110,5 +122,117 @@ MODIF DYLAN - SECTION SERVICE
     width: 48%;
     max-width: 400px;
     margin-bottom: 10px;
+  }
+  .service__title{
+    font-size: 40px;
+  }
+}
+
+/* ---------------------
+MODIF DYLAN - SECTION TARIF
+--------------------- */
+
+.section--tarifs{
+  width: 100%;
+  background-color: white;
+  font-family: 'Open sans','Arial',sans-serif;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.tarifs__container{
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.tarifs__title{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: #ff592b;
+  text-transform: uppercase;
+}
+.tarifs__inner{
+  display: flex;
+  /* align-items: center; */
+  flex-direction: row;
+}
+
+.tarifs__gauche,.tarifs__droite{
+  width: 50%;
+  box-sizing: border-box;
+
+
+}
+.tarifs__gauche{
+  padding-right: 30px;
+}
+.tarifs__droite{
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+
+
+.tarifs__subtitle{
+    color: #ff592b;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.tarifs__text{
+  color: grey;
+  line-height: 1.45;
+  margin-bottom:25px;
+  text-align: justify;
+}
+
+.tarifs__list{
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.tarifs__item{
+  color: grey;
+  margin-bottom: 35px;
+  font-size: 17px;
+}
+
+.tarifs__icon{
+  color: #ff592b;
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+  .tarifs__title{
+    font-size: 30px;
+  }
+  .tarifs__inner{
+
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .tarifs__gauche,.tarifs__droite{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .tarifs__droite{
+    padding-left: 0;
+  }
+  .tarifs__list{
+    padding: 0
+  }
+  .tarifs__icon{
+    margin-right: 10px;
+  }
+  .tarifs__item{
+    font-size: 15px;
   }
 }
